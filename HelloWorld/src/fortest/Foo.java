@@ -3,7 +3,7 @@ package fortest;
 public class Foo {
    
 	public static void main(String[] args) {
-		System.out.println("be happy!");
+		System.out.println("be happy11!");
 	}
 	
 
