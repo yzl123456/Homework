@@ -4,6 +4,7 @@ public class Main {
 	int i = 555;
 	static int k=2;
 	public static void main(String[] args) {
-		System.out.println("!!!");
+		TestStudent student=new TestStudent();
+		
 	}
 }
