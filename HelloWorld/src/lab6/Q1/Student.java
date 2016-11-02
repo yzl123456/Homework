@@ -5,19 +5,17 @@ package lab6.Q1;
  * Lab 2
  */
 public class Student extends Person{
-	private final String name="myStudent";//定义final
-	private final String address="hznu";
-	private final String phone="22222222222";
-	private final String email="22222222222@qq.com";
-	private final String grade="大二";
-	public Student() {
-		// TODO Auto-generated constructor stub
+	private final String grade;
+	
+	public Student(String name, String address, String phone, String email, String grade) {
+		super(name, address, phone, email);
+		this.grade = grade;
 	}
+
 	//tostring
 	@Override
 	public String toString() {
-		return "Student [name=" + name + ", address=" + address + ", phone=" + phone + ", email=" + email + ", grade="
-				+ grade + "]";
+		return "Student "+getName();
 	}
 	
 	
