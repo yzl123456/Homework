@@ -1,3 +1,11 @@
+/META-INF/
+/applicationContext.xml
+/bigWork/
+/db.properties
+/lab10/
+/lab11/
+/lab12/
+/lab13/
 /lab5/
 /lab6/
 /lab7/
@@ -8,3 +16,4 @@
 /question3/
 /question4/
 /test/
+/testJPA/

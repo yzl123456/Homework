@@ -1,40 +1,22 @@
 package test;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.OutputStream;
-import java.util.Arrays;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
-import java.util.InputMismatchException;
-import java.util.Scanner;
+import java.util.GregorianCalendar;
+
+import javax.swing.JFrame;
+import javax.xml.crypto.Data;
 
 public class Test {
-	public static void main(String[] args) throws Exception {
-//		int[] numbers=new int[]{1,2,3,4,5};
-//		File file=new File("g://a.txt");
-//		OutputStream outputStream=new FileOutputStream(file);
-//		ObjectOutputStream out=new ObjectOutputStream(outputStream);
-//		out.writeObject(numbers);
-//		Integer xInteger;
-//		int[] want;
-//		File file=new File("g://a.txt");
-//		InputStream inputStream=new FileInputStream(file);
-//		ObjectInputStream in=new ObjectInputStream(inputStream);
-//		Object object = in.readObject();
-//		int [] numbers=(int[])object;
-//		for(int i=0;i<numbers.length;i++){
-//			System.out.println(numbers[i]);
-//		}
-		int[] numbers=new int[]{1,2,3};
-		Person person=new Person();
-		System.out.println(numbers);
-		System.out.println(person);
-		
+	static int i=0;
+	public static void main(String[] args)  {
+//		String string="1991-12-04 00:00:00.0";
+//		SimpleDateFormat dateFormat=new SimpleDateFormat("yyyy-MM-dd");
+//		
+//		System.out.println(dateFormat.format(dateFormat.parse(string)));
+		TestException testException=new TestException();
+		testException.testExce();
 	}
-	
 }
